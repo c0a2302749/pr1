@@ -1,5 +1,6 @@
 import os
 import sys
+import random
 import pygame as pg
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -26,7 +27,7 @@ def main():
         screen.blit(enn, [100, 400])
         pg.display.update()
         tmr += 1        
-        clock.tick(1)
+        clock.tick(random.randrange(0, 10))
 
 
 if __name__ == "__main__":
