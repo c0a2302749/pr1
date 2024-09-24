@@ -38,10 +38,6 @@ def main():
             kk_x=-1
         kk_rct.move_ip(kk_x, kk_y)
 
-
-
-
-        
         screen.blit(bg_img, [bg_x, 0])
         screen.blit(bg_img2, [bg_x+1600, 0])
         screen.blit(bg_img, [bg_x+3200, 0])
